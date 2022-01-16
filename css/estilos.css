@@ -5,10 +5,24 @@
     box-sizing: border-box;
 }
 
+header {
+    background: rgb(240, 193, 123);
+    background: radial-gradient(circle, rgba(240, 193, 123, 1) 0%, rgba(249, 248, 243, 1) 100%);
+}
+
 header img {
     width: 13%;
 }
 
 main section img {
     width: 98%;
+}
+
+section {
+    background-color: #f1f8e9;
+}
+
+footer {
+    background: rgb(249, 248, 243);
+    background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
 }
