@@ -1,0 +1,14 @@
+/* UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 13%;
+}
+
+main section img {
+    width: 98%;
+}
