@@ -14,8 +14,34 @@ header img {
     width: 13%;
 }
 
-main section img {
-    width: 98%;
+.nosotros {
+    color: #8c9eff;
+    border-top: double;
+    background-color: #f1f8e9;
+}
+
+.productos {
+    color: #8c9eff;
+    border-top: double;
+    background-image: url(../img/tiramisu.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.local {
+    color: #8c9eff;
+    border-top: double;
+    background-image: url(../img/mapaheladeria.png);
+}
+
+.contacto {
+    color: #8c9eff;
+    border-top: double;
+    background-color: #f1f8e9;
+}
+
+p {
+    color: #795548;
 }
 
 section {
@@ -23,6 +49,8 @@ section {
 }
 
 footer {
+    color: #8c9eff;
+    border-top: double;
     background: rgb(249, 248, 243);
     background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
 }
