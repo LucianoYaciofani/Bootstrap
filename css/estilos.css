@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
+/* ENCABEZADO */
 header {
     background: rgb(240, 193, 123);
     background: radial-gradient(circle, rgba(240, 193, 123, 1) 0%, rgba(249, 248, 243, 1) 100%);
 }
 
+/* LOGO */
 header img {
     width: 3%;
 }
@@ -38,12 +40,14 @@ header ul a:hover {
     text-transform: uppercase;
 }
 
+/* SECCIONES */
 .nosotros {
     color: #8c9eff;
     border-top: double;
     background-color: #f1f8e9;
 }
 
+/* SECCIONES */
 .productos {
     color: #8c9eff;
     border-top: double;
@@ -52,23 +56,27 @@ header ul a:hover {
     background-size: cover;
 }
 
+/* TABLA DE PRODUCTOS */
 table {
     background-color: #8c9eff;
     color: #fff59d;
 }
 
+/* TABLA SELECCIONADA */
 table:hover {
     background-color: #fff59d;
     color: #8c9eff;
     transition-duration: 2s;
 }
 
+/* SECCIONES */
 .local {
     color: #8c9eff;
     border-top: double;
     background-image: url(../img/mapaheladeria.png);
 }
 
+/* PARRAFO PRINCIPAL DE LA SECCIÓN */
 .local p {
     color: #5d4037;
     border: double;
@@ -76,6 +84,7 @@ table:hover {
     background-color: #8c9eff;
 }
 
+/* SECCIONES */
 .contacto {
     color: #8c9eff;
     border-top: double;
@@ -96,10 +105,12 @@ table:hover {
     color: #5d4037;
 }
 
+/* PARRAFO PRINCIPAL DE LA SECCIÓN */
 p {
     color: #795548;
 }
 
+/* PIE DE PÁGINA */
 footer {
     color: #8c9eff;
     border-top: double;
@@ -107,6 +118,7 @@ footer {
     background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
 }
 
+/* PARRAFO PRINCIPAL DE LA SECCIÓN */
 footer p {
     color: black;
 }
