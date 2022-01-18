@@ -11,7 +11,31 @@ header {
 }
 
 header img {
-    width: 13%;
+    width: 3%;
+}
+
+/* MENU - NAV */
+header ul {
+    list-style: none;
+}
+
+/* MENU - LISTAS */
+header li {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* MENU - NAV */
+header ul a {
+    list-style: none;
+    color: #795548;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* MAYUSCULAS EN MENU  */
+header ul a:hover {
+    text-transform: uppercase;
 }
 
 .nosotros {
@@ -28,10 +52,28 @@ header img {
     background-size: cover;
 }
 
+table {
+    background-color: #8c9eff;
+    color: #fff59d;
+}
+
+table:hover {
+    background-color: #fff59d;
+    color: #8c9eff;
+    transition-duration: 2s;
+}
+
 .local {
     color: #8c9eff;
     border-top: double;
     background-image: url(../img/mapaheladeria.png);
+}
+
+.local p {
+    color: #5d4037;
+    border: double;
+    border-radius: 0.5rem;
+    background-color: #8c9eff;
 }
 
 .contacto {
@@ -40,12 +82,22 @@ header img {
     background-color: #f1f8e9;
 }
 
-p {
-    color: #795548;
+/* FORMULARIO */
+.contacto form {
+    width: 80%;
+    color: #5d4037;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: solid 1px;
+    font-size: 1rem;
+    background-color: #8c9eff;
+    border-radius: 0.5rem;
+    color: #5d4037;
 }
 
-section {
-    background-color: #f1f8e9;
+p {
+    color: #795548;
 }
 
 footer {
@@ -53,4 +105,36 @@ footer {
     border-top: double;
     background: rgb(249, 248, 243);
     background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
+}
+
+footer p {
+    color: black;
+}
+
+/* MENU - NAV */
+footer ul {
+    list-style: none;
+}
+
+/* MENU - LISTAS */
+footer li {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* LINK - FACEBOOK CON LOGO*/
+.fa-facebook-square {
+    font-size: 3rem;
+    color: #3b5998;
+    background-color: white;
+    border-radius: 2.5rem;
+}
+
+/* LINK - INSTAGRAM CON LOGO */
+.fa-instagram {
+    font-size: 3rem;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-radius: 5rem;
+    color: white;
 }
